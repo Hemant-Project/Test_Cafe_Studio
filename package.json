@@ -1,0 +1,23 @@
+{
+  "name": "test_cafe_studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests/new-test-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemant-Project/Test_Cafe_Studio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemant-Project/Test_Cafe_Studio/issues"
+  },
+  "homepage": "https://github.com/Hemant-Project/Test_Cafe_Studio#readme"
+}
