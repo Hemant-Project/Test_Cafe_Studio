@@ -7,8 +7,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v1
+        uses: Hemant-Project/Test_Cafe_Studio
       - name: Run tests
-        uses: DevExpress/testcafe-action@latest
+        uses: Hemant-Project/Test_Cafe_Studio@latest
         with:
             args: "chrome tests"
