@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture `New Fixture`
+fixture `Google Search Test`
     .page `https://www.jenkins.io/`;
     
 test(`Test RTI Form`, async t => {

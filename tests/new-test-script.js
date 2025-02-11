@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture `New Fixture`
+fixture `TestCafe core docs`
     .page `https://docs.devexpress.com/TestCafeStudio`;
     
 test(`New Test`, async t => {
