@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 132.0.0.0 / Windows 11" tests="1" failures="1" skipped="0" errors="1" time="14.69" timestamp="Tue, 11 Feb 2025 16:40:32 GMT" >
+  <testcase classname="New Fixture" file="D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js" name="New Test" time="14.002">
+    <failure>
+    <![CDATA[
+      1) The Native Automation mode does not support the use of multiple browser windows. Use the "disable native automation" option to continue.
+
+         Browser: Chrome 132.0.0.0 / Windows 11
+
+            13 |            offsetX: 9,
+            14 |            offsetY: 8
+            15 |        })
+            16 |        .click(Selector('span').withText('Integrate Tests with CI Systems'))
+            17 |        .click('#onetrust-close-btn-container [class^="onetrust-close-btn-handler banner-close-button ot-"]')
+          > 18 |        .click(Selector('main a').withText('GitHub Actions'))
+            19 |        .drag(Selector('main p').withText('This job contains a matrix strategy that duplicate'), 73, -2, {
+            20 |            offsetX: 67,
+            21 |            offsetY: 12
+            22 |        })
+            23 |
+
+            at <anonymous> (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:18:10)
+            at asyncGeneratorStep (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:1:37)
+            at _next (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:1:37)
+            at <anonymous> (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:1:37)
+            at <anonymous> (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:1:37)
+            at <anonymous> (D:\TestCafeStudio\Test_Cafe_Studio\tests\new-test-script.js:31:2)
+    ]]>
+    </failure>
+  </testcase>
+</testsuite>
